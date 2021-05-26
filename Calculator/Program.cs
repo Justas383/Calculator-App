@@ -50,7 +50,7 @@ namespace Calculator
                             Console.WriteLine(num1value + " minus " + num2value + " is: " + (num1value - num2value));
                             break;
                         case "/":
-                            Console.WriteLine(num1value + " divided by " + num2value + " is: " + (num1value / num2value));
+                            Console.WriteLine(num1value + " divided by " + num2value + " is: " + Convert.ToDouble(num1value) / Convert.ToDouble(num2value));
                             break;
                         case "*":
                             Console.WriteLine(num1value + " multiplied by " + num2value + " is: " + (num1value * num2value));
@@ -66,7 +66,7 @@ namespace Calculator
                         return;
                 }
 
-
+                
             } 
 
         }
